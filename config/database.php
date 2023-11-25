@@ -44,15 +44,6 @@ return [
             'password' => env('DB_PASSWORD', ''),
         ],
 
-        'mongodb_testing' => [
-            'driver' => 'mongodb',
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '27017'),
-            'database' => env('DB_TEST_DATABASE', 'phone'),
-            'username' => env('DB_USERNAME', ''),
-            'password' => env('DB_PASSWORD', ''),
-        ],
-
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
